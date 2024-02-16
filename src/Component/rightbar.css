@@ -1,0 +1,21 @@
+.rightbarMainContainer {
+  flex: 0.1;
+  background-color: rgb(49, 45, 45);
+}
+
+.proImage {
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+.dott {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  margin-top: -12px;
+  position: relative;
+}

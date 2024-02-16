@@ -1,0 +1,106 @@
+.leftbarMainContainer {
+  flex: 0.7;
+  background-color: black;
+  height: 100vh;
+}
+
+.logoname {
+  color: white;
+  margin-left: 1rem;
+  font-weight: 400;
+}
+
+.logo {
+  color: red;
+  font-weight: 400;
+}
+
+.iListname {
+  color: #ccc;
+  margin-left: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.menu {
+  color: darkgrey;
+  margin-left: 1rem;
+}
+
+.listicons {
+  width: 20px;
+  height: 20px;
+  margin-left: -12px;
+}
+
+.lastimage {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 10%;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+
+.popcorn {
+  color: darkgrey;
+  margin-left: 36px;
+  margin-top: -4px;
+}
+
+.viewingtime {
+  color: white;
+  font-size: 11px;
+  margin-left: 41px;
+  margin-top: -4px;
+  position: relative;
+}
+
+.btnchallenges {
+  color: black;
+  margin-left: 49px;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+}
+
+.leftbarlastdiv {
+  margin-left: 30px;
+  background-color: #191414;
+  margin-right: 40px;
+  border-radius: 15px;
+  padding: 2px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 764px) {
+  .iListname {
+    display: none;
+  }
+  li {
+    margin-top: 12px;
+    margin-left: -12px;
+  }
+  .leftbarlastdiv {
+    display: none;
+  }
+  .leftbarMainContainer {
+    flex: 0.2;
+    background-color: black;
+    height: 100vh;
+  }
+  .logoname {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+  .menu {
+    font-size: 11px;
+    margin-left: 4px;
+  }
+}
